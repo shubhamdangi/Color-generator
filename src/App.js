@@ -25,7 +25,7 @@ function App() {
         <form onSubmit={handleSubmit}>
           <input
             type="text"
-            placeholder="#FF7777"
+            placeholder="#FF7777 or type new.."
             value={color}
             onChange={(e) => setColor(e.target.value)}
             className={`${error ? "error" : null}`}
